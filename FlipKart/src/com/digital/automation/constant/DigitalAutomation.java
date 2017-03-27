@@ -15,7 +15,7 @@ public class DigitalAutomation {
 	}
 	
 	@Test
-	public void display1() {
+	public void method2() {
 		System.out.println("Testing.... ");
 	}
 
