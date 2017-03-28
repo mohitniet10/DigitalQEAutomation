@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import com.automation.utility.AutomationUtility;
+import com.automation.utility.OrderAutomaion;
 
 /**
  * 
@@ -18,7 +18,7 @@ import com.automation.utility.AutomationUtility;
 public class MyOrdersTest {
 	@Test
 	public void testProp() throws Exception {
-		Properties obj = AutomationUtility.getProperty();
+		Properties obj = OrderAutomaion.getProperty();
 		WebDriver driver=new FirefoxDriver();
 		
 		driver.get(obj.getProperty("url"));
