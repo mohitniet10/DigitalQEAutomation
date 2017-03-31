@@ -10,7 +10,7 @@ public class OrderAutomaion {
 
 	public static Properties getProperty() throws IOException {
 		Properties obj = new Properties();
-		FileInputStream objfile = new FileInputStream(System.getProperty("user.dir") + "\\src\\orders.properties");
+		FileInputStream objfile = new FileInputStream(System.getProperty("user.dir") + "\\FlipKart\\src\\orders.properties");
 		System.setProperty(OrdersConstant.GekoDriver, OrdersConstant.GekoDriverpath);
 		obj.load(objfile);
 		return obj;
