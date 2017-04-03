@@ -10,7 +10,7 @@ public class AddressUtility {
 
 	public static Properties getProperty() throws IOException {
 		Properties obj = new Properties();
-		FileInputStream objfile = new FileInputStream(System.getProperty("user.dir") + "\\FlipKart\\src\\objects.properties");
+		FileInputStream objfile = new FileInputStream(System.getProperty("user.dir") + "\\FlipKart\\src\\Address.properties");
 		System.setProperty(DigitalConstant.GekoDriver, DigitalConstant.GekoDriverpath);
 		obj.load(objfile);
 		return obj;
